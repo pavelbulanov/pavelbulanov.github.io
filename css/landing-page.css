@@ -1,0 +1,276 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.navbar-header .navbar-brand  {
+  color: white;
+}
+
+.navbar-header  > p {
+    margin: 0 0 0px;
+}
+
+.topnav {
+    font-size: 16px; 
+    background-color: rgba(214, 16, 67, 1);
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px;  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 50px;*/
+    color: #f8f8f8;
+    background: url(../images/dota-background-blue.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-header .row {
+    /*position: relative;*/
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.intro-message .title-name {
+    font-size: 45px;
+    margin-top: 0px;
+}
+
+.intro-message .title-paragraph {
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*line-height: 150%;*/
+}
+
+.navbar-header-logo {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 20px;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.intro-header .add-bot-buttons {
+    text-align: center;
+}
+
+.content-section-b .add-bot-buttons{
+    text-align: left;
+}
+
+.add-bot-buttons .btn-xlg {
+  padding: 20px 20%;
+  margin-top: 20px;
+  font-size: 22px;
+  border-radius: 15px;
+}
+
+.separator  {
+      background-color: #500f00;
+      height: 20px;
+}
+
+.section-heading {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+.content-section-a {
+    padding: 0px 0;
+    color: white;
+    font-size: 20px;
+    background: url("../images/dota-background-flame-wide.jpg") center center;
+}
+
+.content-section-a .row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.content-section-a .images-container {
+    position: relative;
+}
+
+.on-top-image {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+.content-section-b {
+    /*padding: 10px 0;*/
+    background-color: #500f00;
+    color: white;
+    /*border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;*/
+}
+
+.content-section-b .row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.content-section-b .section-heading{
+    text-align: center;
+}
+
+.motto .row {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.content-motto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD000;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.how-it-works .row {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.how-it-works .header {
+    font-size: 20px;
+    color: #A8A8A8;
+}
+
+.how-it-works .paragraph {
+    font-size: 16px;
+    color: #89BF24;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
