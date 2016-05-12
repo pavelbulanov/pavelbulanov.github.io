@@ -25,13 +25,22 @@ h6 {
   color: white;
 }
 
+.navbar-header .navbar-brand :hover {
+  color: white;
+}
+
 .navbar-header  > p {
     margin: 0 0 0px;
 }
 
+.navbar-logo {
+    width: 32px; 
+    height: 32px;
+}
+
 .topnav {
-    font-size: 16px; 
     background-color: rgba(214, 16, 67, 1);
+    border-width: 0;
 }
 
 .lead {
@@ -44,7 +53,7 @@ h6 {
     /*padding-bottom: 50px;*/
     color: #f8f8f8;
     background: url(../images/dota-background-blue.jpg) no-repeat center center;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .intro-header .row {
@@ -53,16 +62,18 @@ h6 {
     padding-bottom: 25px;
 }
 
-.intro-message .title-name {
-    font-size: 45px;
-    margin-top: 0px;
-}
-
 .intro-message .title-paragraph {
     font-size: 22px;
     padding-top: 15px;
-    padding-bottom: 15px;
-    /*line-height: 150%;*/
+    padding-bottom: 10px;
+}
+
+.intro-image {
+    text-align: center;
+}
+
+.intro-image .img-responsive {
+    display: inline;
 }
 
 .navbar-header-logo {
@@ -81,7 +92,9 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .intro-divider {
@@ -122,13 +135,9 @@ h6 {
     text-align: center;
 }
 
-.content-section-b .add-bot-buttons{
-    text-align: left;
-}
-
 .add-bot-buttons .btn-xlg {
   padding: 20px 20%;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 22px;
   border-radius: 15px;
 }
@@ -138,10 +147,9 @@ h6 {
       height: 20px;
 }
 
-.section-heading {
-    margin-bottom: 25px;
+.section-content  h1 {
     margin-top: 0px;
-    font-size: 45px;
+    margin-bottom: 15px;
 }
 
 .content-section-a {
@@ -156,14 +164,19 @@ h6 {
     padding-bottom: 10px;
 }
 
-.content-section-a .images-container {
+.section-images-container {
     position: relative;
+    text-align: center;
+}
+
+.section-images-container .img-responsive {
+    display: inline;
 }
 
 .on-top-image {
     position: absolute;
-    top: 5%;
-    left: 2%;
+    top: 3%;
+    width: 100%;
 }
 
 .content-section-b {
@@ -175,14 +188,19 @@ h6 {
 }
 
 .content-section-b .row {
-    padding-top: 20px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
-
-.content-section-b .section-heading{
+.content-section-b h1 {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.content-section-b .add-bot-buttons{
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .motto .row {
@@ -190,17 +208,23 @@ h6 {
     padding-bottom: 0px;
 }
 
-.content-motto {
+.motto p  {
     font-size: 20px;
     font-weight: bold;
-    color: #FFD000;
+    color: #00D0D0;
+    /*color: yellow;*/
     text-align: right;
     padding-bottom: 10px;
 }
 
+.how-it-works hr {
+    width: 80%;
+    border-color: gray;
+}
+
 .how-it-works .row {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .how-it-works .header {
@@ -209,8 +233,13 @@ h6 {
 }
 
 .how-it-works .paragraph {
-    font-size: 16px;
+    font-size: 18px;
     color: #89BF24;
+}
+
+.how-it-works .less-spacing {
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .section-heading-spacer {
@@ -267,8 +296,8 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+    padding: 15px 0;
+    background-color: black;
 }
 
 p.copyright {
