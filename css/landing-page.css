@@ -85,7 +85,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .container {
-    width: 980px;
+    width: 1080px;
   }
 }
 
@@ -140,11 +140,9 @@ h6 {
   margin-top: 10px;
   font-size: 22px;
   border-radius: 15px;
-  background-color: #007f00;
-  border-color: #007f00;
-
   background-color: #a00f00;
   border-color: #a00f00;
+  color: yellow;
 }
 
 .add-bot-buttons .button-logo {
@@ -164,15 +162,17 @@ h6 {
 }
 
 .content-section-a {
-    padding: 0px 0;
     color: white;
     font-size: 20px;
     background: url("../images/dota-background-flame-wide.jpg") center center;
+
+    background-repeat: no-repeat;
+    background-color: #500f00;
 }
 
 .content-section-a .row {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .section-images-container {
@@ -191,18 +191,14 @@ h6 {
 }
 
 .content-section-b {
-    /*padding: 10px 0;*/
     background-color: #500f00;
     color: white;
-    /*border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;*/
 }
 
 .content-section-b .row {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
 
 .content-section-b h1 {
     text-align: center;
@@ -219,17 +215,24 @@ h6 {
     padding-bottom: 0px;
 }
 
-.motto p  {
+.motto {
     font-size: 20px;
     font-weight: bold;
     color: yellow;
-    text-align: right;
+    text-align: center;
     padding-bottom: 10px;
 }
 
+.motto-message {
+    border-radius: 15px;
+    background: rgba(80,16,00,0.7);
+    border-color: #a00f00;
+    padding: 10px 10px;
+}
+
 .how-it-works hr {
-    width: 80%;
-    border-color: gray;
+    width: 85%;
+    border-color: #900000;
 }
 
 .how-it-works .row {
@@ -238,18 +241,23 @@ h6 {
 }
 
 .how-it-works .header {
-    font-size: 20px;
-    color: #A8A8A8;
+    font-size: 22px;
 }
 
 .how-it-works .paragraph {
     font-size: 18px;
-    color: #89BF24;
+    color: #cccccc;
+    padding-left: 10px;
+}
+
+.how-it-works .paragraph-link{
+    color: #bbbbbb;
+    text-decoration: underline;
 }
 
 .how-it-works .less-spacing {
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .section-heading-spacer {
@@ -311,5 +319,6 @@ footer {
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    margin: 5px 0 0;
+    color: #B00f00;
 }
