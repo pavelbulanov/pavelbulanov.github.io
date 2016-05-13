@@ -52,14 +52,14 @@ h6 {
     padding-top: 50px;  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     /*padding-bottom: 50px;*/
     color: #f8f8f8;
-    background: url(../images/dota-background-blue.jpg) no-repeat center center;
+    background: url(../images/dota-background-chars.jpg) no-repeat center center;
     /*background-size: cover;*/
 }
 
 .intro-header .row {
-    /*position: relative;*/
     padding-top: 20px;
     padding-bottom: 25px;
+    background: rgba(80,16,00,0.7);
 }
 
 .intro-message .title-paragraph {
@@ -136,10 +136,21 @@ h6 {
 }
 
 .add-bot-buttons .btn-xlg {
-  padding: 20px 20%;
+  padding: 15px 40px;
   margin-top: 10px;
   font-size: 22px;
   border-radius: 15px;
+  background-color: #007f00;
+  border-color: #007f00;
+
+  background-color: #a00f00;
+  border-color: #a00f00;
+}
+
+.add-bot-buttons .button-logo {
+    width: 30px;
+    /*margin-right: 20px;*/
+    margin-left: 10px;
 }
 
 .separator  {
@@ -211,8 +222,7 @@ h6 {
 .motto p  {
     font-size: 20px;
     font-weight: bold;
-    color: #00D0D0;
-    /*color: yellow;*/
+    color: yellow;
     text-align: right;
     padding-bottom: 10px;
 }
